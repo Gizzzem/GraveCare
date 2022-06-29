@@ -16,7 +16,7 @@
 .singlePostTitle{
     text-align: center;
     margin: 10px;
-    font-family: 'Lora', serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 30px;
 
 }
@@ -39,7 +39,7 @@
     /* display: flex; */
     justify-content:space-between;
     font-size: 16px;
-    font-family: 'Valera Round', sans-serif;
+    font-family: 'Dosis', sans-serif;
     color:#b39656;
 }
 .singlePostDesc{

@@ -1,12 +1,12 @@
 .top{
     width: 100%;
-    height: 50px;
-    background-color: white;
+    height: 80px;
+    background-color:bisque;
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Dosis', sans-serif;
     z-index: 999;
 }
 .topLeft,.topRight{
@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 22px;
 }
 .topCenter{
     flex:6;
@@ -28,7 +29,6 @@
 .topIcon{
     font-size: 20px;
     margin-right: 10px;
-    color: #444;
     cursor: pointer;
 }
 .topList{
@@ -38,9 +38,10 @@
 }
 .topListItem{
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 300;
-    cursor: not-allowed;
+    cursor:pointer;
+    font-family: 'Dosis', sans-serif;
 }
 .topSearchIcon{
     font-size: 18px;

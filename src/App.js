@@ -11,10 +11,12 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
-  const user=false;
+  const user=true;
   return (
+    
     <Router> 
       <TopBar />
         <Routes>
@@ -23,11 +25,11 @@ function App() {
         <Route path="/register" element={user ? <Home/> : <Register/>} />
         <Route path="/home" element={user ? <Home/> : <Register/>} />
         <Route path="/login" element={user ? <Home/> : <Login/>} />
-        <Route path="/write" element={user ? <Write/> : <Register/>} />
+        <Route path="/about" element={ <Sidebar/>} />
+        <Route path="/write" element={ <Write/>} />
         <Route path="/settings" element={user ? <Settings/> : <Register/>} />
         <Route path="/post/:postId" element = {<Single/>}/>
-
-
+        
         </Routes>
     </Router>
   );

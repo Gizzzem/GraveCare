@@ -9,17 +9,72 @@
     /* object-fit: cover; */
 }
 .writeForm{
-position: relative;
-
+position:absolute;
+width: 100%;
+border-style:hidden ;
 }
 
 .writeFormGroup{
-margin-left: 150px;
 display: flex;
 align-items: center;
+border-style:hidden ;
+padding-top: 30px;
+margin-top: 25px;
 
 }
+.form{
+    display: flex;
+}
+.form2{
+    display: flex;
+}
+.form3{
+    display: flex;
+}
 
+.formIcon{
+    font-size: 60px;
+    margin-right: 10px;
+    margin-left: 50px;
+    color:gray;
+    margin-left: 150px;
+}
+.formIcon2{
+    font-size: 60px;
+    margin-right: 10px;
+    color:gray;
+    margin-left: 150px;
+    
+}
+.formIcon3{
+    font-size: 60px;
+    margin-right: 10px;
+    color:gray;
+    margin-left: 150px;
+}
+.formText{
+    color: grey;
+    width: 300px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+.formText2{
+    color: grey;
+    width: 300px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 10px;
+}
+.formText3{
+    color: grey;
+    width: 300px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 10px;
+}
 .writeIcon{
     width: 25px;
     height: 25px;
