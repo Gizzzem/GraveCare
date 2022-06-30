@@ -22,9 +22,9 @@ function App() {
         <Routes>
         <Route xact path="/" element={<Home/>} />
 
-        <Route path="/register" element={user ? <Home/> : <Register/>} />
+        <Route path="/register" element={<Register/>} />
         <Route path="/home" element={user ? <Home/> : <Register/>} />
-        <Route path="/login" element={user ? <Home/> : <Login/>} />
+        <Route path="/login" element={ <Login/>} />
         <Route path="/about" element={ <Sidebar/>} />
         <Route path="/write" element={ <Write/>} />
         <Route path="/settings" element={user ? <Settings/> : <Register/>} />

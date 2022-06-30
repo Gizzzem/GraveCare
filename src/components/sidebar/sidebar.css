@@ -1,4 +1,9 @@
 .sidebar{
+    /* height: calc(100vh - 50px); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 3px;
     margin: 20px;
     padding-bottom: 30px;
@@ -6,7 +11,15 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    height: 900px;
     align-items: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+        ),
+         url("https://img.freepik.com/free-vector/aesthetic-background-vector-dried-flower-with-shadow-glitter-design_53876-157555.jpg?size=626&ext=jpg");
+         background-size: cover;
+
 }
 .sidebarItem{
     display: flex;
@@ -14,20 +27,35 @@
     align-items: center;
 }
 
+.sidebarText{
+   font-size: large;
+   display: flex;
+   margin-right: 5px;
+   font-weight:bold;
+}
+
 .sidebarTitle{
     margin: 10px;
     padding: 5px;
-    width: 80%;
+    width: 10%;
     border-top: 1px solid #a7a4a4;
     border-bottom: 1px solid #a7a4a4;
     font-family: 'Varela', sans-serif;
     font-size: 12px;
     color: #222;
-    font-weight: 600;
+    font-weight: 60px;
     line-height: 20px;
     text-align: center;
+    font-size: medium;
+    font-weight:bold;
+    
 }
-.sidebarItem> img{
+.sidebarImg {
+    height: 300px;
+    width: 1200px;
+    margin-top: 20px;
+}
+.sidebarItem {
     margin-top: 15px;
 
 }

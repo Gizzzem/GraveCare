@@ -16,12 +16,11 @@ export default function Write() {
           <span className="formText">İstiklal, Şair Fuzuli Cd. No:50/A, 26010 Odunpazarı /Eskişehir, Türkiye </span>}
         <div className="form2">
         <i className="formIcon2 fa-solid fa-square-phone"></i>
-          <span className="formText2">0222 233 73 73<br/>
-           info@eskisehircicek.com.tr<br/>  0 (542) 732 29 67<br/> </span>
+          <span className="formText2">0222 233 73 73<br/>  0 (542) 732 29 67<br/> </span>
 
            <i className="formIcon3 fa-solid fa-square-envelope"></i>
-          <span className="formText"><br/>
-           info@eskisehircicek.com.tr </span>
+          <span className="formText3">
+           info@eskisehircicek.com.tr</span>
         </div>
 
         </div>

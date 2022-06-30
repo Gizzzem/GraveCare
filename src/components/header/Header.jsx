@@ -10,7 +10,7 @@ export default function Header() {
             ESKİŞEHİR ÇİÇEK HİZMETİDİR </span>
 
         </div>
-        <img className="headerImg" src="https://www.milanomonuments.com/hubfs/common%20grave%20momentos.png" alt="" />
+        <img className="headerImg" src="https://img.theculturetrip.com/450x/smart/wp-content/uploads/2018/02/kings-chapel.jpg" alt="" />
         
     </div>
   )

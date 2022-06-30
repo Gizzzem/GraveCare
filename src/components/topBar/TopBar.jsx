@@ -34,10 +34,10 @@ export default function TopBar() {
                 alt="" />
                 ): ( */}
                     <ul className="topList">
-                        <li className="topListItem">
+                        <li className="topRight">
                             <Link className="link" to="/login">LOGIN</Link>
                         </li>
-                        <li className="topListItem">
+                        <li className="topRight">
                             <Link className="link" to="/register">REGISTER</Link>
                         </li>
                     </ul>

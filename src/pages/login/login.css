@@ -4,24 +4,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 3px;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
     background: linear-gradient(
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.5)
-    ),
-     url("https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1598455932000/photosp/bab49efd-43a9-44d6-9353-c9d052f1dbcf/stock-photo-still-life-leaves-wallpaper-beautiful-pastel-minimalist-eucalyptus-minimal-natural-backgrounds-bab49efd-43a9-44d6-9353-c9d052f1dbcf.jpg");
-     background-size: cover;
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+        ),
+         url("https://img.freepik.com/free-vector/aesthetic-background-vector-dried-flower-with-shadow-glitter-design_53876-157555.jpg?size=626&ext=jpg");
+         background-size: cover;
 }
 .loginTitle{
-    font-size: 50px;
+    font-size: 55px;
 
 }
 .loginForm{
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 .loginForm>label{
-    margin: 10px 0;
+    margin: 15px 0;
 }
 .loginInput{
     padding: 10px;
